@@ -1,0 +1,305 @@
+// David Mohammed — Portfolio Data
+// Mo-Blind.com color scheme: #0A0D14 bg, #1AD1B5 teal, #855DF6 purple
+
+export const profile = {
+  name: "David Mohammed",
+  credentials: "PMP, CSM, PCCSE",
+  title: "Senior AI Project Manager",
+  subtitle: "AI Implementation & Cybersecurity Delivery",
+  location: "Tampa, FL",
+  phone: "813-716-5045",
+  email: "virtualmoha@gmail.com",
+  linkedin: "https://linkedin.com/in/david-a-mohammed",
+  github: "https://github.com/davmoha",
+  website: "https://mo-blind.com",
+  avatar: "https://avatars.githubusercontent.com/u/16512478?v=4",
+  bio: "I help businesses unlock 25% operational gains by streamlining processes first, then applying AI automation to reduce redundancy and improve efficiency.",
+  summary: "PMP, CSM, PCCSE, and CSPO-certified AI Project Manager with over 17 years of experience managing large enterprise level companies and government agencies, delivering complex cybersecurity solutions and infrastructure builds from end-to-end. Expert at leading secure AI implementation strategies, managing cross-functional teams, while managing project scope, quality, schedule, budget, resources, and risk.",
+};
+
+export const stats = [
+  { value: "17+", label: "Years Experience", icon: "calendar" },
+  { value: "3,000+", label: "Deployments Managed", icon: "server" },
+  { value: "$12M", label: "Budget Oversight", icon: "dollar" },
+  { value: "95%", label: "On-Time Delivery", icon: "check" },
+];
+
+export const certifications = [
+  "PMP", "CSPO", "ITIL 4", "CSM", "Azure Admin",
+  "AWS Solutions Architect Associate", "AWS AI Practitioner",
+  "Sec+", "Lean Six Sigma Yellow Belt", "Palo Alto PCSNA",
+  "Palo Alto PCCSE", "Fortinet FCA", "CCNA",
+  "Active Government Clearances",
+];
+
+export const competencies = [
+  "Project Management", "Portfolio Management", "AI Communications Strategy",
+  "Cross Functional Coordination", "Workflow Automation", "API Integrations",
+  "MCP Servers", "Stakeholder Management", "Client Engagement",
+  "Risk Mitigation", "Milestone Tracking", "Status Reporting",
+  "Resource Allocation", "Budget Oversight", "ServiceNow",
+  "Jira", "MS Project", "SharePoint", "Zero Trust Networks",
+  "Firewall Security", "Data Leak Prevention",
+];
+
+export const experience = [
+  {
+    company: "Mo-Blind Solutions LLC",
+    location: "Brandon, FL",
+    role: "AI Project Manager (Design, Delivery)",
+    period: "Sept. 2024 — Present",
+    current: true,
+    highlights: [
+      "Led the delivery of Agentic AI-powered software lifecycles, using API and MCP connections to Claude Code, Hermes Agent, Copilot, NotebookLM and Gemini to automate clients' workload.",
+      "Created marketing campaigns for clients targeting customer base with new carousel advertisements through email and social media. Used AI tooling to produce Analytics regarding campaign efficacy. Redesigned client's website and backend CRM — client saw a 15% gain in new orders.",
+      "Consulted with small businesses and non-profits to streamline legacy processes before Generative AI implementation, eliminating redundant workflows to project $15K–$20K in annual savings for client.",
+      "Reviewed current organizational policies to develop standardized AI Governance frameworks, ensuring compliance and data integrity across automated workstreams.",
+      "Designed and deployed agentic AI workflows and voice agents, using an iterative based Scrum delivery framework, reducing operational costs by 25% and saving 30+ hours per month in manual tasks.",
+    ],
+    metrics: ["15% gain in new orders", "25% cost reduction", "30+ hrs/mo saved"],
+  },
+  {
+    company: "AT&T Cybersecurity",
+    location: "Tampa, FL",
+    role: "Technical Project Manager (Service Delivery)",
+    period: "June 2007 — July 2024",
+    current: false,
+    highlights: [
+      "Managed end-to-end delivery of 3,000+ clients over multiple industries, encompassing complex managed services, cloud migrations, SD-WAN, and firewall deployments with $12M budget oversight, maintaining a consistent 95% on-time delivery rate.",
+      "Served as the primary implementation contact for enterprise level clients and escalation authority, coordinating cross-functional global teams of 20 specialists across engineering, finance, sales, and operations.",
+      "Condensed a 2-year, multiple service line, infrastructure migration project timeline for NY Life into 1 year for an 800-site next-generation firewall rollout, saving $4M through stage-gate process optimization and stakeholder alignment.",
+      "Coordinated with customer infrastructure, security, and management teams to discover implementation dependencies and risks, resolving 150 critical escalations annually, while remaining ahead of delivery deadlines.",
+      "Utilized ServiceNow workflows for client handoffs, reducing internal configuration errors in the CMDB by 30% and accelerating client onboarding timelines by 50% across 300 sites with complex asset inventories.",
+      "Developed and delivered comprehensive training programs for both internal enablement teams and over 150 corporate clients, increasing system adoption by 40% and decreasing post-deployment support tickets by 25%.",
+    ],
+    metrics: ["$4M saved for NY Life", "150 escalations resolved/yr", "50% faster onboarding"],
+  },
+  {
+    company: "AT&T Global Network Services",
+    location: "Tampa, FL",
+    role: "Implementation Manager",
+    period: "September 2002 — June 2007",
+    current: false,
+    highlights: [
+      "Managed full-lifecycle rollouts for 2,000+ sites, ensuring 99.9% uptime.",
+      "Developed mainframe scripting to automate provisioning workflows, cutting deployment time by 50% and improving delivery consistency.",
+    ],
+    metrics: ["2,000+ sites", "99.9% uptime", "50% faster deployment"],
+  },
+];
+
+export const education = [
+  {
+    degree: "Bachelor of Arts, Chemistry",
+    institution: "University of South Florida",
+    location: "Tampa, FL",
+  },
+  {
+    degree: "Project Management Professional Certificate",
+    institution: "Syracuse University IVMF",
+    location: "Syracuse, NY",
+  },
+];
+
+export const military = {
+  branch: "US Army",
+  role: "Combat Medic",
+  location: "Ft. Drum, NY",
+};
+
+export const leadership = [
+  {
+    role: "CFO",
+    org: "10CAN.org",
+    description: "Managed $160K budget with 100% transparency, supporting 900+ veterans.",
+  },
+  {
+    role: "Mentor",
+    org: "ACTNowEducation.org",
+    description: "Guided 30 transitioning veterans into IT careers.",
+  },
+  {
+    role: "Finance Chair",
+    org: "FBC Brandon",
+    description: "Reduced operational costs by 20% through resource optimization.",
+  },
+  {
+    role: "Analyst",
+    org: "Vets2Industry.org",
+    description: "Vetted 5,000 organizations that support veterans for authenticity.",
+  },
+];
+
+export const languageColors: Record<string, string> = {
+  TypeScript: "#3178c6",
+  JavaScript: "#f1e05a",
+  Python: "#3572A5",
+  Groovy: "#4298b8",
+  HTML: "#e34c26",
+  CSS: "#563d7c",
+  "N/A": "#6B7280",
+};
+
+export const repos = [
+  {
+    name: "PMP-Dashboard",
+    description: "Dynamic PMP Dashboard for project management tracking and visualization",
+    language: "TypeScript",
+    stars: 0,
+    forks: 0,
+    url: "https://github.com/davmoha/PMP-Dashboard",
+    featured: true,
+    category: "Project Management",
+  },
+  {
+    name: "gov-contract-matcher",
+    description: "A mobile app to find government contracts matching user products/services using SAM.gov API and assist with proposal creation",
+    language: "TypeScript",
+    stars: 0,
+    forks: 0,
+    url: "https://github.com/davmoha/gov-contract-matcher",
+    featured: true,
+    category: "AI / Automation",
+  },
+  {
+    name: "handyman-brandon-redesign",
+    description: "A modern, high-end redesign of Brandon's Finest Handyman Services website featuring background animations, dedicated service pages, and a cohesive brand identity",
+    language: "TypeScript",
+    stars: 0,
+    forks: 0,
+    url: "https://github.com/davmoha/handyman-brandon-redesign",
+    featured: true,
+    category: "Web Development",
+  },
+  {
+    name: "Veteran-Resume-Optimizer",
+    description: "Customize your resume using past resumes and job description — AI-powered resume tailoring tool",
+    language: "N/A",
+    stars: 0,
+    forks: 0,
+    url: "https://github.com/davmoha/Veteran-Resume-Optimizer",
+    featured: true,
+    category: "AI / Automation",
+  },
+  {
+    name: "veteran-finance-sense",
+    description: "Financial planning and literacy tool designed for veterans transitioning to civilian careers",
+    language: "TypeScript",
+    stars: 0,
+    forks: 0,
+    url: "https://github.com/davmoha/veteran-finance-sense",
+    featured: true,
+    category: "Finance",
+  },
+  {
+    name: "voucher-automation",
+    description: "ANE voucher automation — streamlines voucher processing workflows",
+    language: "JavaScript",
+    stars: 0,
+    forks: 1,
+    url: "https://github.com/davmoha/voucher-automation",
+    homepage: "https://voucher-automation.vercel.app",
+    featured: false,
+    category: "AI / Automation",
+  },
+  {
+    name: "Invoice-Tool",
+    description: "Invoice generation and management tool for small businesses",
+    language: "TypeScript",
+    stars: 0,
+    forks: 0,
+    url: "https://github.com/davmoha/Invoice-Tool",
+    featured: false,
+    category: "Business Tools",
+  },
+  {
+    name: "Mo-ConnCRM",
+    description: "Simple CRM — lightweight customer relationship management system",
+    language: "N/A",
+    stars: 0,
+    forks: 0,
+    url: "https://github.com/davmoha/Mo-ConnCRM",
+    featured: false,
+    category: "Business Tools",
+  },
+  {
+    name: "side-hustle-finder",
+    description: "Find the perfect side hustle — AI-powered side income opportunity matcher",
+    language: "JavaScript",
+    stars: 0,
+    forks: 1,
+    url: "https://github.com/davmoha/side-hustle-finder",
+    featured: false,
+    category: "AI / Automation",
+  },
+  {
+    name: "ShouldiRent",
+    description: "Is it worth buying this property based on local rent prices? Real estate analysis tool",
+    language: "N/A",
+    stars: 0,
+    forks: 0,
+    url: "https://github.com/davmoha/ShouldiRent",
+    featured: false,
+    category: "Finance",
+  },
+  {
+    name: "AllPro",
+    description: "Professional services platform built with TypeScript",
+    language: "TypeScript",
+    stars: 0,
+    forks: 0,
+    url: "https://github.com/davmoha/AllPro",
+    featured: false,
+    category: "Web Development",
+  },
+  {
+    name: "electric-night-glow",
+    description: "Electric night glow — visual effects and animation project",
+    language: "TypeScript",
+    stars: 0,
+    forks: 0,
+    url: "https://github.com/davmoha/electric-night-glow",
+    featured: false,
+    category: "Web Development",
+  },
+  {
+    name: "service-site-shine",
+    description: "Service site with polished UI and modern design patterns",
+    language: "TypeScript",
+    stars: 0,
+    forks: 0,
+    url: "https://github.com/davmoha/service-site-shine",
+    featured: false,
+    category: "Web Development",
+  },
+  {
+    name: "Brandons-Finest-Handyman",
+    description: "Website remake for Brandon Handyman Services",
+    language: "N/A",
+    stars: 0,
+    forks: 0,
+    url: "https://github.com/davmoha/Brandons-Finest-Handyman",
+    featured: false,
+    category: "Web Development",
+  },
+  {
+    name: "Mo-Bills",
+    description: "Bill tracking and financial management application",
+    language: "N/A",
+    stars: 0,
+    forks: 0,
+    url: "https://github.com/davmoha/Mo-Bills",
+    featured: false,
+    category: "Finance",
+  },
+  {
+    name: "SmartThingsPublic",
+    description: "SmartThings open-source DeviceTypeHandlers and SmartApps code",
+    language: "Groovy",
+    stars: 0,
+    forks: 0,
+    url: "https://github.com/davmoha/SmartThingsPublic",
+    featured: false,
+    category: "IoT",
+  },
+];

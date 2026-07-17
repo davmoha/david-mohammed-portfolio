@@ -1,24 +1,29 @@
-import { Button } from "@/components/ui/button";
-import { Loader2 } from "lucide-react";
-import { Streamdown } from 'streamdown';
+// Home.tsx — David Mohammed Portfolio
+// Obsidian Executive theme — Mo-Blind.com color scheme
+// #0A0D14 bg | #1AD1B5 teal | #855DF6 purple | Plus Jakarta Sans + Inter
 
-/**
- * All content in this page are only for example, replace with your own feature implementation
- * When building pages, remember your instructions in Frontend Best Practices, Design Guide and Common Pitfalls
- */
+import Nav from "@/components/Nav";
+import Hero from "@/components/Hero";
+import Experience from "@/components/Experience";
+import Skills from "@/components/Skills";
+import Projects from "@/components/Projects";
+import Resume from "@/components/Resume";
+import Contact from "@/components/Contact";
+
 export default function Home() {
-  // If theme is switchable in App.tsx, we can implement theme toggling like this:
-  // const { theme, toggleTheme } = useTheme();
-
   return (
-    <div className="min-h-screen flex flex-col">
+    <div
+      className="min-h-screen"
+      style={{ background: "var(--bg-primary)", color: "var(--text-primary)" }}
+    >
+      <Nav />
       <main>
-        {/* Example: lucide-react for icons */}
-        <Loader2 className="animate-spin" />
-        Example Page
-        {/* Example: Streamdown for markdown rendering */}
-        <Streamdown>Any **markdown** content</Streamdown>
-        <Button variant="default">Example Button</Button>
+        <Hero />
+        <Experience />
+        <Skills />
+        <Projects />
+        <Resume />
+        <Contact />
       </main>
     </div>
   );
