@@ -292,9 +292,9 @@ export default function Hero() {
                   }}
                 >
                   <img
-                    src="/manus-storage/dm-logo_3a928d6c.png"
-                    alt="DM Monogram"
-                    className="w-28 h-28 lg:w-32 lg:h-32 object-contain"
+                    src="/manus-storage/oval_final_1cb596a4.png"
+                    alt="Mo-Blind"
+                    className="w-32 h-32 lg:w-40 lg:h-40 object-contain"
                     style={{ filter: "drop-shadow(0 0 16px rgba(26,209,181,0.5))" }}
                   />
                 </div>
