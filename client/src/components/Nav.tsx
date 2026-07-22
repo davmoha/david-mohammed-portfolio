@@ -62,10 +62,10 @@ export default function Nav() {
             style={{ textDecoration: "none" }}
           >
             <img
-              src="/manus-storage/dm-logo_3a928d6c.png"
-              alt="DM Logo"
-              className="w-9 h-9 object-contain"
-              style={{ filter: "drop-shadow(0 0 6px rgba(26,209,181,0.4))" }}
+              src="/manus-storage/oval_final_1cb596a4.png"
+              alt="Mo-Blind"
+              className="h-12 w-auto object-contain"
+              style={{ filter: "drop-shadow(0 0 6px rgba(26,209,181,0.3))" }}
             />
             <div className="hidden sm:block">
               <div
